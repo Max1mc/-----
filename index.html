@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Магазин техніки</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Магазин техніки</h1>
+      <h2>Список товарів</h2>
+      <table style="border: 1px solid black;">
+        <tr>
+            <td style="border: 1px solid black;">
+                <b>Назва</b>
+            </td>
+            <td style="border: 1px solid black;">
+                 <b>Ціна</b>
+            </td>
+            <td style="color:linear-gradient(to right, #d4d42c, #1221f5);">
+                <b>Наявність</b>
+            </td>
+        </tr>
+                <tr>
+            <td style="border: 1px solid black;">
+                Ноутбук
+            </td>
+            <td style="border: 1px solid black;">
+                 25000 грн
+            </td>
+            <td style="border: 1px solid black;">
+                Є в наявності
+            </td>
+        </tr>
+                <tr>
+            <td style="border: 1px solid black;">
+                Смартфон
+            </td>
+            <td style="border: 1px solid black;">
+                 15000 грн
+            </td>
+            <td style="border: 1px solid black;">
+                Є в наявності
+            </td>
+        </tr>
+                <tr>
+            <td style="border: 1px solid black;">
+                Навушники
+            </td>
+            <td style="border: 1px solid black;">
+                 3000 грн
+            </td>
+            <td style="border: 1px solid black;">
+                Закінчились
+            </td>
+        </tr>
+      </table>
+      <h2>Форма замовлення</h2>
+      
+      <p style="margin-bottom: 0px;">Ваше ім'я:</p>
+      <input type="text">
+      <br>
+
+      <p style="margin-bottom: 0px;">Оберіть товар:</p>
+      <input type="text">
+      <br>
+      
+      <p style="margin-bottom: 0px;">Кількість:</p>
+      <input type="text">
+      <br>
+      
+      <button style="margin-top: 10px;" type="button" onclick="submitOrder()">Замовити</button>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
